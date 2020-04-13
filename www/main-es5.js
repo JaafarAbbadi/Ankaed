@@ -70,13 +70,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: AppComponent,
       selectors: [["app-root"]],
-      decls: 2,
+      decls: 6,
       vars: 0,
+      consts: [["src", "assets/wallpaper.jpg"], ["autoplay", "", "loop", "", "controls", ""], ["src", "assets/corona.mp3", "type", "audio/mp3"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "hi");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " \u0645\u062D\u0637\u0627\u062A \u0627\u0644\u0646\u0633\u064A\u0627\u0646 \u0628\u0631\u0639\u0627\u064A\u0629 \u0627\u0644\u0641\u0641\u064A\u0646\u0648\n");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "audio", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "source", 2);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
